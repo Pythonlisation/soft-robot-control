@@ -310,3 +310,34 @@ in Soft Tissue Biomechanical Modeling for Computer Assisted Surgery, 2012.
 M. Sanz-Lopez, B. Carrez, D. Marchal, O. Goury, J. Dequidt, and
 C. Duriez, “Software toolkit for modeling, simulation, and control of
 soft robots,” Advanced Robotics, vol. 31, no. 22, pp. 1208–1224, 2017.
+
+
+
+--------------- builing blog by jeff
+04/02/2023 
+finally, the compilation is running smoothly, currently 986/2114. Summarising some notes
+1. virtual machine, Ubuntur 20:04
+2. install annoconda environment. select the 2021.05-Linux-x86_64.sh 
+Linek is here https://repo.anaconda.com/archive/
+The installation video https://www.youtube.com/watch?v=PHkCmuzgHOo
+Note! After installing,close the terminal then reopen it!! important! s
+3. bashrc file step
+<img width="551" alt="image" src="https://user-images.githubusercontent.com/45967086/216792749-7c32ea7d-d7ff-4b02-855b-74bc70305298.png">
+Note you need to type gedit .bashrc to open this file,
+then paste that piece of codes at the END of this file. 
+Then save and close it.
+Then source ~/.bashrc
+
+4. At this step. use touch CMakeLists.txt to create the cmakelist. 
+Make sure it is CMakeLists.txt not CmakeList.txt
+<img width="595" alt="image" src="https://user-images.githubusercontent.com/45967086/216792866-53053d5b-f238-4e5a-a08f-97222450af63.png">
+
+5. at "Intall Sofa" 
+mkdir $HOME/sofa/src will give an error. Solution is 
+cd   -- so that you are at home dirc
+mkdir sofa --- to create a folder sofa 
+mkdir sofa/src --- to create a subfolder 
+
+Another thing, for the step "Follow instructions to download dependencies (compiler, CMake, Qt, etc.)", 
+Some notes 
+ONE: don't need to activate conda envir to install qt compliler etc. But it is still fine to 
