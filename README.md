@@ -204,6 +204,11 @@ cd $GUROBI_HOME
 python setup.py install
 ```
 
+
+Some notes by jeff
+1. replace gurobi950 by gurobi952 if you have downloaded 9.52
+2. cd $GUROBI_HOME ----> should be cd /opt/gurobi952/linux64
+
 ##### Installation of ROS2
 
 SofaPython3 requires Python 3.8, hence the instructions for ROS2 compatible with python3.8 (which is default for ubuntu 20.04) is provided. 
