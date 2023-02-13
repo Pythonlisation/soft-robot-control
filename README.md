@@ -208,6 +208,10 @@ python setup.py install
 Some notes by jeff
 1. replace gurobi950 by gurobi952 if you have downloaded 9.52
 2. cd $GUROBI_HOME ----> should be cd /opt/gurobi952/linux64
+3. grbgetkey: command not found ---> see this website https://support.gurobi.com/hc/en-us/articles/360047265972-grbgetkey-command-not-found
+---> then in cmd type /opt/gurobi952/linux64/bin/grbgetkey XXXXXX-XXXX-XXX
+---> note you need to type gurobi952 rather than gurobi1000 as said on that website.
+
 
 ##### Installation of ROS2
 
