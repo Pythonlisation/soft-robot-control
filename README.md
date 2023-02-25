@@ -327,6 +327,7 @@ soft robots,” Advanced Robotics, vol. 31, no. 22, pp. 1208–1224, 2017.
 finally, the compilation is running smoothly, currently 986/2114. Summarising some notes
 1. virtual machine, Ubuntur 20:04
 2. install annoconda environment. select the 2021.05-Linux-x86_64.sh 
+(if install for apple sillicon choose aarch64 version)
 Linek is here https://repo.anaconda.com/archive/
 The installation video https://www.youtube.com/watch?v=PHkCmuzgHOo
 Note! After installing,close the terminal then reopen it!! important! s
